@@ -1,0 +1,24 @@
+Jan 25 00:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 00:20 : exception: Failed to open '/home/yash/.config/mpd/state': No such file or directory
+Jan 25 00:20 : update: added /Aero Chord feat. Nevve - Shadows (Original Mix).mp3
+Jan 25 00:20 : update: added /01 Without Me.mp3
+Jan 25 00:20 : update: added /Xxxtentacion BAD!.flac
+Jan 25 00:20 : update: added /01 All Into Nothing.mp3
+Jan 25 00:20 : update: added /01 Glitch.mp3
+Jan 25 00:20 : update: added /04 XXXTENTACION - ​​whoa (mind in awe).mp3
+Jan 25 00:20 : update: added /Alan Walker, K-391, Emelie Hollow Lily.flac
+Jan 25 00:20 : update: added /Party in Backyard, pewdiepie Bitch Lasagna.mp3
+Jan 25 00:20 : update: added /3LAU, Carly Paige Would You Understand.mp3
+Jan 25 00:20 : update: added /13. DUMMY (Feat. Trife Drew).mp3
+Jan 25 00:20 : update: added /Carlie Hanson Numb.flac
+Jan 25 00:20 : update: added /MIA [Telegram @PlugMafia].mp3
+Jan 25 00:20 : update: added /Post_Malone,_Swae_Lee_Sunflower.flac
+Jan 25 00:20 : client: [0] opened from 127.0.0.1:58452
+Jan 25 00:20 : client: [0] closed
+Jan 25 00:20 : client: [1] opened from 127.0.0.1:58454
+Jan 25 00:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 00:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 25 00:20 : client: [1] closed
+Jan 25 00:20 : client: [2] opened from 127.0.0.1:58456
+Jan 25 00:21 : player: played "Aero Chord feat. Nevve - Shadows (Original Mix).mp3"
+Jan 25 00:24 : player: played "Aero Chord feat. Nevve - Shadows (Original Mix).mp3"

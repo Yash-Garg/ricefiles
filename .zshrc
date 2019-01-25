@@ -1,27 +1,28 @@
 # Path to oh-my-zsh installation.
-  export ZSH="/home/yash/.oh-my-zsh"
+export ZSH="/home/yash/.oh-my-zsh"
 
 # Name of the theme to load
-  ZSH_THEME="dstufft"
+ZSH_THEME="dstufft"
 
-# Enable command auto-correction.
-  ENABLE_CORRECTION="true"
+# For zsh auto-update (in days).
+export UPDATE_ZSH_DAYS=7
 
-# Display red dots whilst waiting for completion.
-  COMPLETION_WAITING_DOTS="true"
+# To display red dots while waiting for completion.
+COMPLETION_WAITING_DOTS="true"
 
-# Plugins loaded at shell startup.
-  plugins=(
-    git
-    zsh-syntax-highlighting
-    zsh-autosuggestions
-  )
+# Plugins to load at shell startup
+plugins=(git)
 
-  source $ZSH/oh-my-zsh.sh
-  source ~/.fonts/*.sh
+source $ZSH/oh-my-zsh.sh
 
-# Preferred editor for local and remote sessions
-  export EDITOR='nano'
+# Language environment
+export LANG=en_US.UTF-8
 
-# Aliases
-  alias ufetch="bash ~/ufetch-arch"
+# Preferred editor for local session
+export EDITOR='nano'
+
+# Personal aliases, overriding those provided by oh-my-zsh libs,
+alias ufetch="bash ~/ufetch-arch"
+alias nfetch='neofetch | lolcat'
+alias zs='source ~/.zshrc'
+alias gitf='git commit --all -s -S'

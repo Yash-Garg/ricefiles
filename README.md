@@ -1,5 +1,7 @@
 ## [BSPWM] Arch Setup
 
+> Details about the setup
+
 **Distro**: Arch Linux
 
 **WM**: BSPWM
@@ -25,3 +27,7 @@
 **System Monitor**: [gotop](https://github.com/cjbassi/gotop)
 
 **Others**: [pipes.sh](https://github.com/pipeseroni/pipes.sh), [cmatrix](https://github.com/abishekvashok/cmatrix)
+
+> Setup screenshot below !
+
+![Arch_Setup-Screenshot.png](Arch_Setup.png)

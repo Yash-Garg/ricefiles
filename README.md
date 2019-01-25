@@ -2,9 +2,9 @@
 
 > Details about the setup
 
-**Distro**: Arch Linux
+**Distro**: [Arch Linux](https://www.archlinux.org/)
 
-**WM**: BSPWM
+**WM**: [BSPWM](https://github.com/baskerville/bspwm)
 
 **Wallpaper**: https://kutt.it/hSVEEj
 

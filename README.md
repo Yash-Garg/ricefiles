@@ -18,8 +18,6 @@
 
 **Visualiser**: [cava](https://github.com/karlstav/cava)
 
-**dotfiles**: [https://github.com/Yash-Garg/dotfiles](https://github.com/Yash-Garg/dotfiles)
-
 **Shell**: [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
 **Shell Prompt**: [dstufft](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/dstufft.zsh-theme)

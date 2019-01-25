@@ -12,6 +12,8 @@
 
 **Terminal Theme**: [termite-snazzy](https://github.com/kbobrowski/termite-snazzy)
 
+**Text editor**: [neovim](https://github.com/neovim/neovim)
+
 **Bar**: [Polybar](https://github.com/jaagr/polybar)
 
 **Fetch**: [ufetch](https://gitlab.com/jschx/ufetch)

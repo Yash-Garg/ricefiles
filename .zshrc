@@ -22,7 +22,7 @@ export LANG=en_US.UTF-8
 export EDITOR='nano'
 
 # Personal aliases, overriding those provided by oh-my-zsh libs,
-alias ufetch="bash ~/ufetch-arch"
+alias ufetch="bash ~/ufetch-arch | lolcat"
 alias nfetch='neofetch | lolcat'
 alias zs='source ~/.zshrc'
 alias gitf='git commit --all -s -S'

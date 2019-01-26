@@ -6,7 +6,7 @@ clickable_url = true
 [colors]
 foreground = rgb(239, 240, 235)
 foreground_bold = rgb(239, 240, 235)
-background = rgb(40, 42, 56)
+background = rgb(29, 30, 35)
 
 # If unset, will reverse foreground and background
 highlight = #2f2f2f

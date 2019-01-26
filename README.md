@@ -6,8 +6,6 @@
 
 **WM**: [BSPWM](https://github.com/baskerville/bspwm)
 
-**Wallpaper**: https://kutt.it/hSVEEj
-
 **Terminal**: [termite](https://github.com/thestinger/termite)
 
 **Terminal Theme**: [termite-snazzy](https://github.com/kbobrowski/termite-snazzy)
@@ -32,4 +30,8 @@
 
 > Setup screenshot below !
 
-![Arch_Setup-Screenshot.png](Arch_Setup.png)
+![Arch_Setup-Screenshot.png](src/Arch-Setup.png)
+
+> Wallpaper below ! Click on it to download.
+
+![Wallpaper](src/wallhaven-736516.jpg)

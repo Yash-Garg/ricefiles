@@ -2,6 +2,8 @@
 
 > Details about the setup
 
+**Reddit Link**: https://www.reddit.com/r/unixporn/comments/ajgm94/bspwm_my_first_rice_on_arch/
+
 **Distro**: [Arch Linux](https://www.archlinux.org/)
 
 **WM**: [BSPWM](https://github.com/baskerville/bspwm)

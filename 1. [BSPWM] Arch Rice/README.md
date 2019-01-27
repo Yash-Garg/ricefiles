@@ -30,8 +30,8 @@
 
 > Setup screenshot below !
 
-![Arch_Setup-Screenshot.png](src/Arch-Setup.png)
+![Arch_Setup-Screenshot.png](https://github.com/Yash-Garg/dotfiles/blob/master/src/Arch-Setup.png)
 
 > Wallpaper below ! Click on it to download.
 
-![Wallpaper](src/wallhaven-736516.jpg)
+![Wallpaper](https://github.com/Yash-Garg/dotfiles/blob/master/src/wallhaven-736516.jpg)

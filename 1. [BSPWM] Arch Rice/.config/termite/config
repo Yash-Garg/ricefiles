@@ -1,5 +1,5 @@
 [options]
-font = Monospace Regular 9
+font = Monaco Regular 9
 cursor_blink = on
 clickable_url = true
 

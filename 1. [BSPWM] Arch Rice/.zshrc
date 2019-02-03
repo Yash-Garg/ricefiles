@@ -5,7 +5,7 @@ export ZSH="/home/yash/.oh-my-zsh"
 ZSH_THEME="dstufft"
 
 # For zsh auto-update (in days).
-export UPDATE_ZSH_DAYS=7
+export UPDATE_ZSH_DAYS=1
 
 # To display red dots while waiting for completion.
 COMPLETION_WAITING_DOTS="true"

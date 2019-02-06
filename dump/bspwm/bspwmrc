@@ -24,6 +24,12 @@ mpd &
 # set wallpaper
 feh --bg-scale ~/Pictures/wallhaven*
 
+# Border colors
+bspc config normal_border_color "#9945FF"
+bspc config focused_border_color "#FA577B"
+bspc config urgent_border_color "#B58900"
+bspc config presel_border_color "#26E2FF"
+
 # Set some bsp specific stuff
 bspc monitor -d I II III IV V
 bspc config border_width 3

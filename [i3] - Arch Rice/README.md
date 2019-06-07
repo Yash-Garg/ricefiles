@@ -24,4 +24,4 @@
 
 > Wallpaper below ! Click on it to download.
 
-![Moon Rays](https://imgur.com/a/jWSX7kq)
+![Moon Rays](https://i.imgur.com/Wg2f4T3.jpg)

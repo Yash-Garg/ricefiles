@@ -217,13 +217,6 @@ bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 # wallpaper
 exec_always --no-startup-id feh --bg-scale /home/yash/Downloads/Wg*.jpg
 
-# controls
-
-# Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 1 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 1 toggle # mute sound
-
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
@@ -254,5 +247,14 @@ exec --no-startup-id xss-lock -- /usr/bin/betterlockscreen --text "Hello There" 
 # menu
 bindsym $mod+m exec rofi -show run
 
-# network
+# Brightness
+bindsym XF86MonBrightnessUp exec --no-startup-id sudo xbacklight -inc 10
+bindsym XF86MonBrightnessDown exec --no-startup-id sudo xbacklight -dec 10
+
+# Network
 exec --no-startup-id nm-applet
+
+# Pulse Audio Controls
+bindsym XF86AudioRaiseVolume exec pamixer -i 5
+bindsym XF86AudioLowerVolume exec pamixer -d 5
+bindsym XF86AudioMute exec pamixer -m

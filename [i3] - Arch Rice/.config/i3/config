@@ -245,28 +245,14 @@ exec --no-startup-id /usr/lib/gsd-xsettings
 # compositor
 exec compton
 
-# default workspaces
-# assign [class="Chromium"] $ws1
-# assign [class="kitty"] $ws2
-# assign [class="Code"] $ws3
-# assign [class="Steam"] $ws4
-# assign [class="discord"] $ws9
-# assign [class="Telegram"] $ws9
-# assign [class="Slack"] $ws9
-# assign [class="Mailspring"] $ws8
-# for_window [class="Spotify"] move to workspace $ws10
-
-# i guess putting workspaces on different monitors
-# workspace $ws1 output DP-4
-# workspace $ws2 output DP-2
-
 # lockscreen shortcut
 bindsym $mod+ctrl+l exec /usr/bin/betterlockscreen --text "Hello There" -l 
 
 # something with lock on system events
 exec --no-startup-id xss-lock -- /usr/bin/betterlockscreen --text "Hello There" -l
 
-# launch polybar
-exec /home/yash/.config/polybar/launch.sE
-
+# menu
 bindsym $mod+m exec rofi -show run
+
+# network
+exec --no-startup-id nm-applet

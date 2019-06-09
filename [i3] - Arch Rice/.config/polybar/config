@@ -58,9 +58,9 @@ font-2 = "Font Awesome 5 Free:style=Regular:pixelsize=10;3"
 font-3 = "Font Awesome 5 Brands:pixelsize=10;3"
 font-4 = "NotoEmoji Nerd Font Mono:style=Book:size=10;3"
 
-modules-left = player-mpris-tail weather
+modules-left = date weather
 modules-center = i3
-modules-right = pulseaudio memory cpu battery date powermenu
+modules-right = pulseaudio memory cpu battery pkg powermenu
 
 tray-position = right
 tray-padding = 2
@@ -455,3 +455,12 @@ scroll-up = ~/.config/polybar/pavolume.sh --up
 scroll-down = ~/.config/polybar/pavolume.sh --down
 label-padding = 2
 label-foreground = ${colors.white}
+
+[module/pkg]
+type = custom/script
+exec = ~/bin/updates.sh
+exec-if = "ping -q -w 2 -c 1 176.34.135.167 > /dev/null"
+label-padding = 1
+label = %output% 
+tail = true
+format-underline = #0cff00

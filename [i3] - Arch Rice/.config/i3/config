@@ -244,8 +244,8 @@ bindsym $mod+ctrl+l exec /usr/bin/betterlockscreen --text "Hello There" -l
 # something with lock on system events
 exec --no-startup-id xss-lock -- /usr/bin/betterlockscreen --text "Hello There" -l
 
-# menu
-bindsym $mod+m exec rofi -show run
+# start albert
+exec --no-startup-id albert
 
 # Brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id sudo xbacklight -inc 10

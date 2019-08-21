@@ -28,3 +28,11 @@ alias ufetch="bash ~/ufetch-arch | lolcat"
 alias nfetch='neofetch | lolcat'
 alias zs='source ~/.zshrc'
 alias gitf='git commit --all -s -S'
+
+# Flutter related paths below
+export PATH="$PATH:/usr/share/flutter/bin"
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
+export ANDROID_HOME=$ANDROID_SDK_ROOT
+export ANDROID_SDK_ROOT=$PATH:/home/yash/Android
+export PATH="$ANDROID_HOME""tools:$ANDROID_HOME""tools/bin:$ANDROID_HOME""platform-tools:$PATH"
+export PATH=${PATH}:/home/yash/Android/sdk/tools:/home/yash/Android/sdk/platform-tools

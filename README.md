@@ -1,4 +1,4 @@
-![dotfiles-header.png](https://github.com/Yash-Garg/dotfiles/blob/master/src/header.png)
+![dotfiles-header.png](https://github.com/Yash-Garg/ricefiles/blob/master/src/header.png)
 
 ## Introduction
 
